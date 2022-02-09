@@ -18,6 +18,6 @@
 ?>
 </div>
 <div class="footer">
-    <button><a href="/TP real/exercice2/">Precedent</a></button>
-    <button><a href="/TP real/exercice4/">Suivant</a></button>
+    <button><a href="/TP-real/exercice2/">Precedent</a></button>
+    <button><a href="/TP-real/exercice4/">Suivant</a></button>
 </div>

@@ -24,8 +24,8 @@ include_once 'functions.php';
     ?>
 </div>
 <div class="footer">
-    <button><a href="/TP real/exercice5/">Precedent</a></button>
-    <button><a href="/TP real/exercice7/">Suivant</a></button>
+    <button><a href="/TP-real/exercice5/">Precedent</a></button>
+    <button><a href="/TP-real/exercice7/">Suivant</a></button>
 </div>
 <?php 
 if (isset($_SESSION['error'])) {

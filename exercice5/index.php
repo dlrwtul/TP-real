@@ -19,6 +19,6 @@ echo 'La distance entre les deux points est : ' . distance($pointA,$pointB)."<br
 ?>
 </div>
 <div class="footer">
-    <button><a href="/TP real/exercice4/">Precedent</a></button>
-    <button><a href="/TP real/exercice6/">Suivant</a></button>
+    <button><a href="/TP-real/exercice4/">Precedent</a></button>
+    <button><a href="/TP-real/exercice6/">Suivant</a></button>
 </div>
