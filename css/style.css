@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 12px;
+}
+
+.header {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.header nav {
+    margin: 0 auto;
+    height: 15vh;
+    width: 100%;
+    padding-left: 2%;
+    background-color: #eee;
+}
+
+.header li {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #eee;
+}
+
+.header li:hover {
+    border: 1px solid dimgray;
+}
+
+.header li:hover .sous {
+    display: grid;
+    grid-template-rows: repeat(3 , 1fr);
+    border: 1px solid dimgray;
+}
+
+.deroulant {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.deroulant a {
+    display: flex;
+    width: 15vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.deroulant a:hover {
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sous {
+    display: none;
+}
+
+.footer {
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer button {
+    background-color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    margin: 1% 0 0 27.5%;
+    border: none;
+}
+
+.footer button:first-child a {
+    padding: 20% 35%;
+}
+
+.footer button a {
+    border: 1px solid black;
+    padding: 25% 60%;
+    border-radius: 25px;
+}
+
+.footer button a:hover {
+    color: white;
+    background-color: black;
+}
